@@ -10,6 +10,18 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+.navbar-color-custom {
+  background-color: #ff7315;
+  height: 5rem;
+  color: #f4f4f4!important;
+  font-size: 1.5rem;
+}
+
+.white-font {
+  color: #f4f4f4!important;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
