@@ -36,6 +36,13 @@
           font-family: "Computer Modern Sans", sans-serif!important;
           color: #f4f4f4!important;
         }
+
+        .email_link:link{
+          COLOR: #f4f4f4 !important; TEXT-DECORATION: none; font-weight: none;
+        }
+        .email_link:hover{
+          COLOR: #adadad !important; text-decoration: none; font-weight: normal;
+        }
            </style>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
@@ -162,8 +169,9 @@
           </div>
           <div class="row justify-content-center my-3">
             <h5><ul>Phone: 412-123-4567<br></ul></h5>
-            <h5><ul>Email: example@example.com<br></ul></h5>
+            <ul><a class="email_link" href="mailto:email@example.com?subject=Mail from our Website"><h5>Click to email: example@example.com</h5></a><br></ul>
             <h5><ul>Address: 123 Main St. <br>Pittsburgh, PA 15213</ul></h5>
+            <ul><a class="email_link" href="https://www.linkedin.com/thisaccountdoesnotexist?_l=en_US"><h5>Visit my LinkedIn</h5></a><br></ul>
           </div>
         </div>
 
