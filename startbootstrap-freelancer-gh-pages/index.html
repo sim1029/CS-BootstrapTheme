@@ -27,6 +27,10 @@
         p {
           font-family: "Computer Modern Sans", sans-serif!important;
         }
+        A:link { COLOR: black; TEXT-DECORATION: none; font-weight: normal }
+        A:visited { COLOR: black; TEXT-DECORATION: none; font-weight: normal }
+        A:active { COLOR: black; TEXT-DECORATION: none }
+        A:hover { COLOR: #f4f4f4 !important; TEXT-DECORATION: none; font-weight: none }
            </style>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
@@ -37,7 +41,7 @@
         <nav class="navbar navbar-expand-lg navbar-light navbar-color-custom mx-even mt-3" style="border-radius: 50px">
           <div class="container-fluid">
                 <div class="col-3 d-flex">
-                  <a class="navbar-brand white-font" href="#" style="font-size: 2rem;">YOUR_NAME</a>
+                  <h3 href="#" style="font-size: 2rem;">YOUR_NAME</h3>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -45,11 +49,11 @@
                 <div class="col-9 d-flex">
                   <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                      <a class="nav-item nav-link active white-font" href="#">About Me <span class="sr-only">(current)</span></a>
-                      <a class="nav-item nav-link white-font" href="#">Projects</a>
-                      <a class="nav-item nav-link white-font" href="#">Timeline</a>
-                      <a class="nav-item nav-link white-font" href="#">Resume</a>
-                      <a class="nav-item nav-link white-font" href="#">Contact</a>
+                      <a class="nav-item nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+                      <a class="nav-item nav-link" href="#">Projects</a>
+                      <a class="nav-item nav-link" href="#">Timeline</a>
+                      <a class="nav-item nav-link" href="#">Resume</a>
+                      <a class="nav-item nav-link" href="#">Contact</a>
                     </div>
                   </div>
               </div>
@@ -66,13 +70,22 @@
           <div class="row justify-content-center my-3">
             <h1 style="color: white">Project Showcase</h1>
             <!-- PROJECT 1 -->
+            <div class="container">
+              <div class="row">
+                <img class="show-on-scroll inline-photo" src="assets/img/project_background.png" alt="Card image">
+              </div>
+            </div>
+
+            <img class="show-on-scroll inline-photo" src="assets/img/project_background.png" alt="Card image">
+            <img class="show-on-scroll inline-photo" src="assets/img/project_background.png" alt="Card image">
+            <img class="show-on-scroll inline-photo" src="assets/img/project_background.png" alt="Card image">
             <a href="index.html" class="my-3">
               <div class="card bg-dark text-white">
                 <img class="card-img" src="assets/img/project_background.png" alt="Card image">
                 <div class="card-img-overlay">
                   <h3 class="card-title">PROJECT_ONE_TITLE</h3>
                   <p class="card-text">Insert a breif description of the project in this paragraph tag. Create backgorund photo 831x270 and link to project repo or website</p>
-                  <p class="card-text">Last updated X mins ago</p>
+                  <p class="card-text">Last updated X days ago</p>
                 </div>
               </div>
             </a>
@@ -83,7 +96,7 @@
                 <div class="card-img-overlay">
                   <h3 class="card-title">PROJECT_TWO_TITLE</h3>
                   <p class="card-text">Insert a breif description of the project in this paragraph tag. Create backgorund photo 831x270 and link to project repo or website</p>
-                  <p class="card-text">Last updated X mins ago</p>
+                  <p class="card-text">Last updated X days ago</p>
                 </div>
               </div>
             </a>
@@ -94,7 +107,7 @@
                 <div class="card-img-overlay">
                   <h3 class="card-title">PROJECT_THREE_TITLE</h3>
                   <p class="card-text">Insert a breif description of the project in this paragraph tag. Create backgorund photo 831x270 and link to project repo or website</p>
-                  <p class="card-text">Last updated X mins ago</p>
+                  <p class="card-text">Last updated X days ago</p>
                 </div>
               </div>
             </a>
@@ -105,7 +118,7 @@
                 <div class="card-img-overlay">
                   <h3 class="card-title">PROJECT_FOUR_TITLE</h3>
                   <p class="card-text">Insert a breif description of the project in this paragraph tag. Create backgorund photo 831x270 and link to project repo or website</p>
-                  <p class="card-text">Last updated X mins ago</p>
+                  <p class="card-text">Last updated X days ago</p>
                 </div>
               </div>
             </a>
@@ -169,5 +182,7 @@
         </div>
 
       </div>
+
+      <script type="text/javascript" src="js/show-on-scroll.js"></script>
     </body>
 </html>
