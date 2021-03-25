@@ -31,6 +31,11 @@
         A:visited { COLOR: black; TEXT-DECORATION: none; font-weight: normal }
         A:active { COLOR: black; TEXT-DECORATION: none }
         A:hover { COLOR: #f4f4f4 !important; TEXT-DECORATION: none; font-weight: none }
+
+        ul{
+          font-family: "Computer Modern Sans", sans-serif!important;
+          color: #f4f4f4!important;
+        }
            </style>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
@@ -40,7 +45,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light navbar-color-custom mx-even mt-3" style="border-radius: 50px">
           <div class="container-fluid">
-                <div class="col-3 d-flex">
+                <div class="col-3 d-flex mt-3">
                   <h3 href="#" style="font-size: 2rem;">YOUR_NAME</h3>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -72,56 +77,32 @@
             <!-- PROJECT 1 -->
             <div class="container">
               <div class="row">
-                <img class="show-on-scroll inline-photo" src="assets/img/project_background.png" alt="Card image">
+                <div class="container custom-container">
+                  <a href="#">
+                    <img class="show-on-scroll inline-photo-right" src="assets/img/project_background.png" alt="Card image">
+                  </a>
+                  <div class="bottom-left show-on-scroll">Proj 1 Title</div>
+                </div>
+                <div class="container custom-container">
+                  <a href="#">
+                    <img class="show-on-scroll inline-photo-left" src="assets/img/project_background.png" alt="Card image">
+                  </a>
+                  <div class="bottom-right show-on-scroll">Proj 2 Title</div>
+                </div>
+                <div class="container custom-container">
+                  <a href="#">
+                    <img class="show-on-scroll inline-photo-right" src="assets/img/project_background.png" alt="Card image">
+                  </a>
+                  <div class="bottom-left show-on-scroll">Proj 3 Title</div>
+                </div>
+                <div class="container custom-container">
+                  <a href="#">
+                    <img class="show-on-scroll inline-photo-left" src="assets/img/project_background.png" alt="Card image">
+                  </a>
+                  <div class="bottom-right show-on-scroll">Proj 4 Title</div>
+                </div>
               </div>
             </div>
-
-            <img class="show-on-scroll inline-photo" src="assets/img/project_background.png" alt="Card image">
-            <img class="show-on-scroll inline-photo" src="assets/img/project_background.png" alt="Card image">
-            <img class="show-on-scroll inline-photo" src="assets/img/project_background.png" alt="Card image">
-            <a href="index.html" class="my-3">
-              <div class="card bg-dark text-white">
-                <img class="card-img" src="assets/img/project_background.png" alt="Card image">
-                <div class="card-img-overlay">
-                  <h3 class="card-title">PROJECT_ONE_TITLE</h3>
-                  <p class="card-text">Insert a breif description of the project in this paragraph tag. Create backgorund photo 831x270 and link to project repo or website</p>
-                  <p class="card-text">Last updated X days ago</p>
-                </div>
-              </div>
-            </a>
-            <!-- PROJECT 2 -->
-            <a href="index.html" class="my-3">
-              <div class="card bg-dark text-white">
-                <img class="card-img" src="assets/img/project_background.png" alt="Card image">
-                <div class="card-img-overlay">
-                  <h3 class="card-title">PROJECT_TWO_TITLE</h3>
-                  <p class="card-text">Insert a breif description of the project in this paragraph tag. Create backgorund photo 831x270 and link to project repo or website</p>
-                  <p class="card-text">Last updated X days ago</p>
-                </div>
-              </div>
-            </a>
-            <!-- PROJECT 3 -->
-            <a href="index.html" class="my-3">
-              <div class="card bg-dark text-white">
-                <img class="card-img" src="assets/img/project_background.png" alt="Card image">
-                <div class="card-img-overlay">
-                  <h3 class="card-title">PROJECT_THREE_TITLE</h3>
-                  <p class="card-text">Insert a breif description of the project in this paragraph tag. Create backgorund photo 831x270 and link to project repo or website</p>
-                  <p class="card-text">Last updated X days ago</p>
-                </div>
-              </div>
-            </a>
-            <!-- PROJECT 4 -->
-            <a href="index.html" class="my-3">
-              <div class="card bg-dark text-white">
-                <img class="card-img" src="assets/img/project_background.png" alt="Card image">
-                <div class="card-img-overlay">
-                  <h3 class="card-title">PROJECT_FOUR_TITLE</h3>
-                  <p class="card-text">Insert a breif description of the project in this paragraph tag. Create backgorund photo 831x270 and link to project repo or website</p>
-                  <p class="card-text">Last updated X days ago</p>
-                </div>
-              </div>
-            </a>
           </div>
           <!-- PUT TIMELINE IN DIV BELOW -->
           <div class="row justify-content-center my-3">
@@ -130,7 +111,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="main-timeline5">
-                            <div class="timeline">
+                            <div class="timeline animate-timeline show-on-scroll">
                                 <div class="timeline-icon"><span class="year">2021</span></div>
                                 <div class="timeline-content">
                                     <h3 class="title">Web Desginer</h3>
@@ -139,7 +120,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="timeline">
+                            <div class="timeline animate-timeline show-on-scroll">
                                 <div class="timeline-icon"><span class="year">2020</span></div>
                                 <div class="timeline-content">
                                     <h3 class="title">Web Developer</h3>
@@ -148,7 +129,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="timeline">
+                            <div class="timeline animate-timeline show-on-scroll">
                                 <div class="timeline-icon"><span class="year">2019</span></div>
                                 <div class="timeline-content">
                                     <h3 class="title">Web Desginer</h3>
@@ -157,7 +138,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="timeline">
+                            <div class="timeline animate-timeline show-on-scroll">
                                 <div class="timeline-icon"><span class="year">2018</span></div>
                                 <div class="timeline-content">
                                     <h3 class="title">Web Developer</h3>
