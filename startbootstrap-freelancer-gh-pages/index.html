@@ -46,6 +46,35 @@
            </style>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
+        <!-- Code for the map -->
+        <title>Add Map</title>
+        <style type="text/css">
+        /* Set the size of the div element that contains the map */
+        #map {
+        height: 400px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+        }
+      </style>
+      <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const uluru = { lat: -25.344, lng: 131.036 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: uluru,
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
     </head>
     <body id="page-top">
       <div class="container">
@@ -75,8 +104,9 @@
         <!-- DELETE BACKGROUND COLOR BEFORE DEPLOYING -->
         <div class="container">
           <!-- PUT ABOUT ME IN DIV BELOW -->
-          <div class="row justify-content-center my-3" style="background-color: red">
-            <h1>ADD ABOUT ME SECTION HERE THEN DELETE BACKGROUND-STYLE</h1>
+          <div class="row justify-content-center my-3">
+            <h1>About Me</h1><br>
+            <p style="color: #f4f4f4;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus non enim praesent elementum facilisis leo vel fringilla. Nulla aliquet enim tortor at auctor urna nunc. Et sollicitudin ac orci phasellus egestas tellus. Eu consequat ac felis donec et odio. Orci a scelerisque purus semper eget duis at. Sit amet mauris commodo quis imperdiet massa tincidunt. Sollicitudin tempor id eu nisl. Sed turpis tincidunt id aliquet. Pulvinar mattis nunc sed blandit libero volutpat sed cras. Vulputate dignissim suspendisse in est ante in nibh. Vitae suscipit tellus mauris a diam maecenas sed enim. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</p>
           </div>
           <!-- PUT PROJECTS IN DIV BELOW -->
           <div class="row justify-content-center my-3">
@@ -173,6 +203,13 @@
             <h5><ul>Address: 123 Main St. <br>Pittsburgh, PA 15213</ul></h5>
             <ul><a class="email_link" href="https://www.linkedin.com/thisaccountdoesnotexist?_l=en_US"><h5>Visit my LinkedIn</h5></a><br></ul>
           </div>
+          <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwavnkTxkKZuYzVVlu9KKzM37e9ctIap0&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
         </div>
 
       </div>
