@@ -62,10 +62,10 @@
       // Initialize and add the map
       function initMap() {
         // The location of Uluru
-        const uluru = { lat: -25.344, lng: 131.036 };
+        const uluru = { lat: 40.440942, lng: -80.006792 };
         // The map, centered at Uluru
         const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 4,
+          zoom: 15,
           center: uluru,
         });
         // The marker, positioned at Uluru
@@ -205,11 +205,11 @@
           </div>
           <div id="map"></div>
 
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwavnkTxkKZuYzVVlu9KKzM37e9ctIap0&callback=initMap&libraries=&v=weekly"
-      async
-    ></script>
+            <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+            <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwavnkTxkKZuYzVVlu9KKzM37e9ctIap0&callback=initMap&libraries=&v=weekly"
+            async
+            ></script>
         </div>
 
       </div>
