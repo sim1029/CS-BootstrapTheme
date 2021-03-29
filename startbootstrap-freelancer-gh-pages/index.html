@@ -82,7 +82,7 @@
         <nav class="navbar navbar-expand-lg navbar-light navbar-color-custom mx-even mt-3" style="border-radius: 50px">
           <div class="container-fluid">
                 <div class="col-3 d-flex mt-3">
-                  <h3 href="#" style="font-size: 2rem;">YOUR_NAME</h3>
+                  <h3 href="#top" style="font-size: 2rem;">YOUR_NAME</h3>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -90,11 +90,11 @@
                 <div class="col-9 d-flex">
                   <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                      <a class="nav-item nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
-                      <a class="nav-item nav-link" href="#">Projects</a>
-                      <a class="nav-item nav-link" href="#">Timeline</a>
-                      <a class="nav-item nav-link" href="#">Resume</a>
-                      <a class="nav-item nav-link" href="#">Contact</a>
+                      <a class="nav-item nav-link" href="#about-me">About Me <span class="sr-only">(current)</span></a>
+                      <a class="nav-item nav-link" href="#projects">Projects</a>
+                      <a class="nav-item nav-link" href="#timeline">Timeline</a>
+                      <a class="nav-item nav-link" href="#resume">Resume</a>
+                      <a class="nav-item nav-link" href="#contact">Contact</a>
                     </div>
                   </div>
               </div>
@@ -104,13 +104,17 @@
         <!-- DELETE BACKGROUND COLOR BEFORE DEPLOYING -->
         <div class="container">
           <!-- PUT ABOUT ME IN DIV BELOW -->
-          <div class="row justify-content-center my-3">
+          <div class="row justify-content-center mt-5 animate-timeline show-on-scroll" id="about-me">
             <h1>About Me</h1><br>
-            <p style="color: #f4f4f4;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus non enim praesent elementum facilisis leo vel fringilla. Nulla aliquet enim tortor at auctor urna nunc. Et sollicitudin ac orci phasellus egestas tellus. Eu consequat ac felis donec et odio. Orci a scelerisque purus semper eget duis at. Sit amet mauris commodo quis imperdiet massa tincidunt. Sollicitudin tempor id eu nisl. Sed turpis tincidunt id aliquet. Pulvinar mattis nunc sed blandit libero volutpat sed cras. Vulputate dignissim suspendisse in est ante in nibh. Vitae suscipit tellus mauris a diam maecenas sed enim. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</p>
+          </div>
+          <div class="row justify-content-center animate-timeline show-on-scroll">
+            <div class="col-7 py-3">
+              <p style="color: #f4f4f4; text-align: center; font-size:1.25rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus non enim praesent elementum facilisis leo vel fringilla. Nulla aliquet enim tortor at auctor urna nunc. Et sollicitudin ac orci phasellus egestas tellus. Eu consequat ac felis donec et odio. Orci a scelerisque purus semper eget duis at. Sit amet mauris commodo quis imperdiet massa tincidunt. Sollicitudin tempor id eu nisl. Sed turpis tincidunt id aliquet. Pulvinar mattis nunc sed blandit libero volutpat sed cras. Vulputate dignissim suspendisse in est ante in nibh. Vitae suscipit tellus mauris a diam maecenas sed enim. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</p>
+            </div>
           </div>
           <!-- PUT PROJECTS IN DIV BELOW -->
-          <div class="row justify-content-center my-3">
-            <h1 style="color: white">Project Showcase</h1>
+          <div class="row justify-content-center my-3" id="projects">
+            <h1 class="animate-timeline show-on-scroll" style="color: white">Project Showcase</h1>
             <!-- PROJECT 1 -->
             <div class="container">
               <div class="row">
@@ -142,7 +146,7 @@
             </div>
           </div>
           <!-- PUT TIMELINE IN DIV BELOW -->
-          <div class="row justify-content-center my-3">
+          <div class="row justify-content-center my-3" id="timeline">
             <h1>Timeline</h1>
             <div class="container">
                 <div class="row">
@@ -190,20 +194,20 @@
             </div>
           </div>
           <!-- PUT RESUME/CLASSES IN DIV BELOW -->
-          <div class="row justify-content-center my-3" style="background-color: green">
+          <div class="row justify-content-center my-3" style="background-color: green" id="resume">
             <h1>ADD RESUME SECTION HERE THEN DELETE BACKGROUND-STYLE</h1>
           </div>
           <!-- PUT CONTACT IN DIV BELOW -->
-          <div class="row justify-content-center my-3">
+          <div class="row justify-content-center my-3" id="contact">
             <h1>Let's get in touch<br></h1>
           </div>
-          <div class="row justify-content-center my-3">
+          <div class="row justify-content-center my-3 animate-timeline show-on-scroll">
             <h5><ul>Phone: 412-123-4567<br></ul></h5>
             <ul><a class="email_link" href="mailto:email@example.com?subject=Mail from our Website"><h5>Click to email: example@example.com</h5></a><br></ul>
             <h5><ul>Address: 123 Main St. <br>Pittsburgh, PA 15213</ul></h5>
             <ul><a class="email_link" href="https://www.linkedin.com/thisaccountdoesnotexist?_l=en_US"><h5>Visit my LinkedIn</h5></a><br></ul>
           </div>
-          <div id="map"></div>
+          <div id="map" class="animate-timeline show-on-scroll"></div>
 
             <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
             <script
