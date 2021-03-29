@@ -1,34 +1,35 @@
-# Computer Science Portfolio 
-Hello, maker! Welcome to your free portfolio web template. This template will highlight to employers your accomplishments, both inside and outside of the classroom. Your own personal portfolio!
+# Elevator Pitch Generator
 
-This template has been specifically designed to showcase the talents and accomplishments of computer science students. But anyone is welcome to use it! 
+It's true. The Greeks invented the elevator, and quickly realized the awkward communication that results when one is locked in a box with their interlocutor. Luckily, in addition to being great engineers, the Greeks were also skilled rhetoricians.
 
-You will be working with a bootstrap template which is highly usable and customizable. 
+Open this generator and follow the directions to utilize the available means of persuasion to concisely language exactly what you want to say. The result: an elevator pitch. Ding! - Doors Closing - How high do you want to go?"
 
-Elements of the portfolio will include: 
-- Biography 
-- Chronological Timeline 
-- Project Showcase 
-- Completed Courses 
-- Future Plans 
-- Contact Information 
+View the [Demo](https://pitt-fuego.github.io/elevator-pitch-generator) 
 
-### Getting Started 
-1. Go to the repository: [HERE](https://github.com/sim1029/CS-BootstrapTheme)
-2. Click "Code" then "Download Zip" to your local computer 
-3. Find the folder in your downloads and move it to a secure place. You will use this folder to manage your scripts and other assets, such as images. 
-4. Download and/or open a text editor to begin personalizing your portfolio. Free, easy-to-use text editors include: [brackets.io](https://brackets.io), [atom.io](https://atom.io), and [notepad-plus-plus.org](notepad-plus-plus.org). 
-5. Use the text editor to open the index.html and style.css documents from your project folder 
-6. Work through the index.html and style.css -- replacing text and images to showcase your personal story
 
-### Finishing Up 
-Once you are finished personalizing the index.html and style.css documents, it is time to publish your project to the web! 
-1. Create a GitHub account and create a new repository 
-2. Click "uploading an existing file" and upload all of the files within your project folder. Click "Commit changes" 
-3. Go to your repository settings and scroll down to "GitHub Pages." Change the setting from "none" to "main" and click save 
+## Get started!
 
-This will publish your project to the web and provide you with a GitHub URL!
+1. Go to the Elevator Pitch repository: [HERE](https://github.com/Pitt-Fuego/elevator-pitch-generator)
 
-Note: It may take several minutes until the URL works properly
+2. Click "Code" then "Download ZIP" to your local computer. 
+
+3. Find this folder in your downloads. Move this folder to a secure place. You will return to this folder to manage your scripts and other assets like images, pdfs, etcetera. 
+
+4. Download and/or open a text editor like [brackets.io](https://brackets.io), [atom.io](https://atom.io), or [notepad-plus-plus.org](notepad-plus-plus.org). 
+
+5. Use the text editor to open the style.css and index.html documents from your project folder.  
+
+6. Start working with code by reading through the index.html where you'll find instructions on how to build your own web text! 
+
+7. Once you have modified and added your files to your project file, you will want to publish to the web. GitHub provides a good solution for "free." Create a GitHub account, then create a new repository for this webtext. Click  "uploading an existing file," (push) your files into this repository. You'll need ALL of your assets to make your webtext function properly. Upload assets, then hit "Commit changes." 
+
+9. Now go to your repository "settings." Scroll down to "GitHub Pages" and change the setting from "none" to "main." Hit "Save"
+
+10. This will provide you with a published GitHub URL.
+
+11. Test the URL in a browser. Magic, no? Actually, it's computer science.  
+
+
+Check out our other cool coding tools [HERE](https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/)
 
 
