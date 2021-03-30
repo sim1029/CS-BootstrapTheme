@@ -22,6 +22,18 @@
 
         h3{
           font-family: "Computer Modern Sans", sans-serif!important;
+		  color: #f4f4f4!important;
+		  
+        }
+		
+		h5{
+          font-family: "Computer Modern Sans", sans-serif!important;
+          color: #f4f4f4!important;
+        }
+		
+		h6{
+          font-family: "Computer Modern Sans", sans-serif!important;
+          color: #f4f4f4!important;
         }
 
         p {
@@ -66,7 +78,7 @@
         // The map, centered at Uluru
         const map = new google.maps.Map(document.getElementById("map"), {
           zoom: 15,
-          center: uluru,
+          center: uluru,	
         });
         // The marker, positioned at Uluru
         const marker = new google.maps.Marker({
@@ -194,13 +206,92 @@
             </div>
           </div>
           <!-- PUT RESUME/CLASSES IN DIV BELOW -->
-          <div class="row justify-content-center my-3" style="background-color: green" id="resume">
-            <h1>ADD RESUME SECTION HERE THEN DELETE BACKGROUND-STYLE</h1>
+          <div class="row justify-content-center mt-3" id="resume">
+            <h1>Resume</h1>
+			
+			
+			<div class="container">
+			
+			<h5 class="text-center">Full CV</h5>
+				<div class="row animate-timeline show-on-scroll">
+					<div class="col">
+					
+						<hr/>
+						<h3 class="text-center">Education</h3>
+						<hr/>
+						
+						<h5 class="text-center">B.A. Communication</h3>
+						<h5 class="text-center">University of Pittsburgh</h3>
+						<h6 class="text-center">2018-2022</h6>
+						<h6 class="text-center">GPA: 4.0</h6>
+						
+						
+						
+						
+						
+						
+					</div>
+					<div class="col">
+					
+						<hr/>
+						<h3 class="text-center">Certifications</h3>
+						<hr/>
+						<h6 class="text-center">American Sign Language Certificate</h6>
+						<h6 class="text-center">Digital Media Certificate</h6>
+						
+						
+						
+						
+					</div>
+					<div class="w-100"></div>
+					<div class="col">
+						<hr/>
+						<h3 class="text-center">Skills</h3>
+						<hr/>
+						
+						
+						
+						<h6 class="text-center">Java</h6>
+						<h6 class="text-center">Python</h6>
+						<h6 class="text-center">HTML/CSS</h6>
+						<h6 class="text-center">Adobe Indesign</h6>
+						<h6 class="text-center">Adobe Illustrator</h6>
+						
+						
+						
+						
+					</div>
+					<div class="col">
+						<hr/>
+						<h3 class="text-center">Awards</h3>
+						<hr/>
+						
+						<h6 class="text-center">Lorem State Hackathon, 1st Place - 2019</h6>
+						<h6 class="text-center">Ipsum Seed Fund Recipient - 2020</h6>
+						
+						
+						
+					</div>
+				</div>
+
+				
+			</div>
+			
+			<!--education-->
+			<!--hard skills -->
+			<!--soft skills -->
+			<!--certifications -->
+			<!--awards -->
+			
           </div>
+		  
+		  
+		  
           <!-- PUT CONTACT IN DIV BELOW -->
           <div class="row justify-content-center my-3" id="contact">
-            <h1>Let's get in touch<br></h1>
+            <h1>Let's get in touch</h1>
           </div>
+		  
           <div class="row justify-content-center my-3 animate-timeline show-on-scroll">
             <h5><ul>Phone: 412-123-4567<br></ul></h5>
             <ul><a class="email_link" href="mailto:email@example.com?subject=Mail from our Website"><h5>Click to email: example@example.com</h5></a><br></ul>
@@ -217,7 +308,16 @@
         </div>
 
       </div>
+	  
+	  
 
       <script type="text/javascript" src="js/show-on-scroll.js"></script>
+	  
+	  <footer>
+	  <p>&nbsp;
+	  <p>&nbsp;
+	  
+	  </footer>
+	  
     </body>
 </html>
